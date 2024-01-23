@@ -56,14 +56,14 @@ const MobileMenu = ({ isOpen, toggle }) => {
       </MobileMenuList>
       <MobileSocials>
         <MobileSocial
-          href="mailto:jerichobantiquete@gmail.com"
+          href="mailto:sumerudas2019@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaEnvelope />
         </MobileSocial>
         <MobileSocial
-          href="https://github.com/monciego"
+          href="https://github.com/Sumeru-Das"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -71,7 +71,7 @@ const MobileMenu = ({ isOpen, toggle }) => {
         </MobileSocial>
 
         <MobileSocial
-          href="https://www.linkedin.com/in/jericho-bantiquete-450541179/"
+          href="https://www.linkedin.com/in/sumerudas//"
           target="_blank"
           rel="noopener noreferrer"
         >

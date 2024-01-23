@@ -39,11 +39,6 @@ const About = () => {
             Redux Toolkit, TailwindCSS, Bootstrap, Node js, Mongo DB,Git and
             GitHub and VS Code.
           </StyledParagraph>
-          <StyledParagraph>
-            I have eagerness to learn something new every day and I love to
-            share my knowledge to my fellow students and developers. And I am
-            looking forward to talk with you!
-          </StyledParagraph>
           <Resume>
             <ResumeLink
               href={resume}
