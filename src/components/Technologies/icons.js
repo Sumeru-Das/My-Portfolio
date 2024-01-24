@@ -88,12 +88,12 @@ export const iconsData = [
     name: "Visual Studio Code",
   },
   {
-    id: 2,
+    id: 15,
     icon: mysql,
     name: "MySQL",
   },
   {
-    id: 2,
+    id: 16,
     icon: mongodb,
     name: "MongoDB",
   },
