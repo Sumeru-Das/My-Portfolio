@@ -1,3 +1,17 @@
+.video-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.content {
+  position: relative; /* Ensure content stacks on top of video */
+  z-index: 1; /* Ensure content appears above video */
+  /* Add any additional styling for content positioning */
+}
 .change-text::before {
   content: "design";
   animation: change infinite 5s;
