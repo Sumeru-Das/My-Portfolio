@@ -6,6 +6,43 @@
   min-height: 100%;
   z-index: -1;
 }
+@media only screen and (max-width: 375px) {
+  .video-bg {
+    display: none;
+  }
+
+  main {
+    background-color: black;
+  }
+}
+@media only screen and (max-width: 667px) {
+  .video-bg {
+    display: none;
+  }
+
+  main {
+    background-color: black;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .video-bg {
+    display: none;
+  }
+
+  main {
+    background-color: black;
+  }
+}
+/* @media only screen and (min-width: 1025px) {
+
+}
+@media only screen and (min-width: 1440px) {
+
+}
+@media only screen and (min-width: 2560px) {
+
+}
+*/
 
 .content {
   position: relative; /* Ensure content stacks on top of video */
