@@ -50,7 +50,7 @@ export const FooterBigLink = styled.a`
   position: relative;
   width: 100%;
   letter-spacing: 1px;
-  color: ${({ theme }) => theme.color.secondaryLight};
+  color: ${({ theme }) => theme.color.erin};
 
   &::after {
     content: "";
@@ -196,14 +196,14 @@ export const FooterLine = styled.hr`
   margin-top: 3rem;
   border: none;
   height: 0.2px;
-  background: rgba(255, 255, 255, 0.1);
+  background: ${({ theme }) => theme.backgroundColor.darkGray};
   position: relative;
 `;
 
 export const ArrowToTop = styled.div`
   height: 60px;
   width: 60px;
-  background: rgba(255, 255, 255, 0.05);
+  background: ${({ theme }) => theme.color.lightGray};
   background-image: url(${arrowUp});
   background-repeat: no-repeat;
   background-position: center center;
@@ -214,7 +214,6 @@ export const ArrowToTop = styled.div`
   cursor: pointer;
 
   &:hover {
-    background: ${({ theme }) => theme.backgroundColor.orange};
     background-image: url(${arrowUp});
     background-repeat: no-repeat;
     background-position: center center;
@@ -225,11 +224,24 @@ export const ArrowToTop = styled.div`
     content: "";
     display: block;
     width: 1px;
-    height: 4rem;
-    background-color: rgba(255, 255, 255, 0.05);
+    height: 6rem;
+    background-color: ${({ theme }) => theme.backgroundColor.erin};
     position: absolute;
     top: -6rem;
     left: 50%;
+    animation: lineAnimation 2s ease-in-out infinite;
+  }
+
+  @keyframes lineAnimation {
+    0% {
+      height: 0;
+    }
+    50% {
+      height: 0;
+    }
+    100% {
+      height: 6rem;
+    }
   }
 
   &::after {
@@ -240,7 +252,7 @@ export const ArrowToTop = styled.div`
     line-height: 30px;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
-    color: rgba(255, 255, 255, 0.15);
+    color: ${({ theme }) => theme.color.erin};
     transition: all 0.5s;
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);

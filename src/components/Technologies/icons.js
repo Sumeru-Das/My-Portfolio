@@ -1,7 +1,7 @@
 import html5 from "../../assets/technologies/html.svg";
 import css3 from "../../assets/technologies/css.svg";
 import javascript from "../../assets/technologies/javascript.svg";
-import jqvery from "../../assets/technologies/jqvery.svg";
+import jquery from "../../assets/technologies/jquery.svg";
 import reactjs from "../../assets/technologies/react.svg";
 import redux from "../../assets/technologies/redux.svg";
 import tailwindcss from "../../assets/technologies/tailwindcss.svg";
@@ -38,8 +38,8 @@ export const iconsData = [
   },
   {
     id: 5,
-    icon: jqvery,
-    name: "jqvery",
+    icon: jquery,
+    name: "Jquery",
   },
   {
     id: 6,

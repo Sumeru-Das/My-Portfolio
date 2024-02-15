@@ -63,14 +63,13 @@ export const Line = styled.hr`
   width: 5rem;
   position: absolute;
   bottom: 6rem;
-  background: ${({ theme }) => theme.backgroundColor.orange};
   border: none;
   height: 0.125rem;
   border-radius: 2.8125rem;
 `;
 
 export const Greeting = styled.p`
-  color: white;
+  color: ${({ theme }) => theme.color.erin};
   position: absolute;
   bottom: 3rem;
 `;
