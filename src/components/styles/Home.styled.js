@@ -82,7 +82,6 @@ export const Socials = styled.div`
   position: absolute;
   right: 5rem;
   bottom: 3rem;
-
   @media all and (max-width: ${({ theme }) => theme.breakpoints.md}) {
     display: none;
   }
@@ -92,11 +91,11 @@ export const Social = styled.a`
   cursor: pointer;
   transition: 0.3s ease;
   position: relative;
-  color: ${({ theme }) => theme.color.light};
+  color: ${({ theme }) => theme.color.erin};
 
   &:hover {
-    transform: translateY(-0.3125rem);
-    color: ${({ theme }) => theme.backgroundColor.orange};
+    transform: translateY(-0.5 125rem);
+    color: ${({ theme }) => theme.backgroundColor.light};
   }
 
   &::after {
