@@ -5,7 +5,7 @@ import {
   StyledButtonsContainer,
   StyledHome,
   Title,
-  Line,
+  // Line,
   Greeting,
   Social,
   Socials,
@@ -19,7 +19,7 @@ import { BsInstagram } from "react-icons/bs";
 import { GoMarkGithub } from "react-icons/go";
 import { FaEnvelope } from "react-icons/fa";
 
-import videoBg from "../../assets/videoBg.mp4";
+import videoBg from "../../assets/videoBg2.mp4";
 
 const Home = () => {
   let today = new Date(),
@@ -34,9 +34,9 @@ const Home = () => {
           <StyledHome id="home">
             {/* Content */}
 
-            <Name>Sumeru Das</Name>
+            <Name className="font">Sumeru Das</Name>
             <Title>Full Stack Developer</Title>
-            <p>
+            <p className="intro">
               I <span className="change-text"></span>{" "}
               <span className="responsive">r</span>
               <span className="responsive">e</span>
@@ -79,7 +79,7 @@ const Home = () => {
                 <span>About me</span>
               </StyledButton>
             </StyledButtonsContainer>
-            <Line />
+            {/* <Line /> */}
             <Greeting>
               have a great
               <span>

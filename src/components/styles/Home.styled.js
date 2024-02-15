@@ -4,6 +4,7 @@ export const StyledHome = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
   padding: 0 8rem;
   height: 100vh;
 
@@ -14,7 +15,7 @@ export const StyledHome = styled.section`
 `;
 
 export const Name = styled.h2`
-  font-size: 2.1875rem;
+  font-size: 8.1875rem;
   position: relative;
   color: #fff9f9;
 
@@ -49,12 +50,16 @@ export const Title = styled.h1`
 
 export const StyledButtonsContainer = styled.div`
   display: flex;
-  align-items: center;
+  justify-content: center;
+  text-align: center;
   gap: 1rem;
   margin-top: 3rem;
 `;
 
 export const Line = styled.hr`
+  display: flex;
+  justify-content: center;
+  text-align: center;
   width: 5rem;
   position: absolute;
   bottom: 6rem;
@@ -65,6 +70,7 @@ export const Line = styled.hr`
 `;
 
 export const Greeting = styled.p`
+  color: white;
   position: absolute;
   bottom: 3rem;
 `;
