@@ -26,7 +26,7 @@ export const SectionTitle = styled.h2`
     top: 50%;
     transform: translate(-50%, -50%);
     color: ${(props) =>
-      props.dark ? "rgba(29, 28, 28, 0.2)" : "rgba(0, 0, 0, 0.06)"};
+      props.dark ? "rgba(29, 28, 28, 0.7)" : "rgba(0, 0, 0, 0.09)"};
     z-index: -1;
     font-size: 8rem;
 

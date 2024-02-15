@@ -6,7 +6,7 @@ export const theme = {
   backgroundColor: {
     dark: "#0d0e0e",
     light: "#ffffff",
-    orange: "#e64e04",
+    erin: "#00FF40",
     darkGray: "#111",
   },
   color: {
@@ -16,7 +16,8 @@ export const theme = {
     light: "#fff",
     secondaryLight: "#f1f1f1",
     tertiaryLight: "#d3d3d3",
-    link: "#4353ff",
+    erin: "#00FF40",
+    link: "#00FF40",
   },
   CTA: {
     primary: "#e64e04",

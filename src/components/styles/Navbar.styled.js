@@ -13,7 +13,7 @@ export const StyledNavbar = styled.nav`
   padding: 0 5rem;
   transition: 0.5s ease-in-out;
   z-index: 999;
-  color: #fff;
+  color: #000;
 
   &.sticky {
     position: fixed;
@@ -23,6 +23,10 @@ export const StyledNavbar = styled.nav`
     background-color: ${({ theme }) => theme.backgroundColor.dark};
     height: 5.32875rem;
     z-index: 999;
+  }
+
+  &:hover {
+    color: ${({ theme }) => theme.color.black};
   }
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.md}) {
@@ -52,7 +56,7 @@ export const NavList = styled.li``;
 export const StyledNavLinks = styled(NavLink)`
   font-size: 0.75rem;
   letter-spacing: 0.09375rem;
-  color: ${({ theme }) => theme.color.lightGray};
+  color: ${({ theme }) => theme.color.erin};
   transition: 0.3s ease;
   text-transform: uppercase;
   position: relative;
@@ -68,7 +72,7 @@ export const StyledNavLinks = styled(NavLink)`
     width: 0;
     transform: scaleX(1);
     height: 0.0625rem;
-    background: ${({ theme }) => theme.backgroundColor.orange};
+    background: ${({ theme }) => theme.backgroundColor.erin};
     transition: 0.3s ease-in-out;
   }
 
@@ -89,7 +93,7 @@ export const StyledNavLinks = styled(NavLink)`
     width: 100%;
     transform: scaleX(1);
     height: 0.0625rem;
-    background: ${({ theme }) => theme.backgroundColor.orange};
+    background: ${({ theme }) => theme.backgroundColor.erin};
     transition: 0.3s ease-in-out;
   }
 `;
@@ -101,7 +105,7 @@ export const StyledCTA = styled.a`
   transition: 0.3s ease;
   text-transform: uppercase;
   padding: 0.8rem 1.5rem;
-  background: ${({ theme }) => theme.backgroundColor.darkGray};
+  background: ${({ theme }) => theme.backgroundColor.light};
   transition: 0.3s ease;
   position: relative;
   overflow: hidden;
@@ -151,7 +155,7 @@ export const StyledCTA = styled.a`
 
   &::before {
     content: "";
-    background: ${({ theme }) => theme.backgroundColor.orange};
+    background: ${({ theme }) => theme.backgroundColor.erin};
     transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
     transform-origin: 100% 50%;
   }
@@ -178,7 +182,7 @@ export const Menu = styled.div`
 export const Line = styled.div`
   height: 0.1125rem;
   width: ${(props) => props.width || "2rem"};
-  background: ${({ theme }) => theme.color.light};
+  background: ${({ theme }) => theme.color.erin};
   margin: 0.28125rem 0;
   transition: 0.3s ease;
   margin-left: ${(props) => props.ml || "0"};

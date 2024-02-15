@@ -9,7 +9,7 @@ export const StyledButton = styled(Button)`
   line-height: 2.5rem;
   font-size: 0.9375em;
   text-transform: uppercase;
-  color: #fff;
+  color: #000;
   padding: 0 2.5rem;
   outline: none !important;
   overflow: hidden;
@@ -19,7 +19,7 @@ export const StyledButton = styled(Button)`
   border: 0;
   cursor: pointer;
 
-  background: ${(props) => (props.secondary ? "#4353ff" : "#e64e04")};
+  background: ${(props) => (props.secondary ? "#fff" : "#00FF40")};
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.sm}) {
     font-size: 0.85em;
