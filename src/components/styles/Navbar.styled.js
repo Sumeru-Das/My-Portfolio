@@ -34,17 +34,12 @@ export const StyledNavbar = styled.nav`
   }
 `;
 
-export const NavLogo = styled.img`
-  cursor: pointer;
-  color: red;
-`;
-
 export const NavMenuList = styled.ul`
   display: flex;
   list-style: none;
   gap: 1.5rem;
   flex: 1;
-  margin-left: 8rem;
+  margin-left: 4rem;
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.md}) {
     display: none;
@@ -54,7 +49,7 @@ export const NavMenuList = styled.ul`
 export const NavList = styled.li``;
 
 export const StyledNavLinks = styled(NavLink)`
-  font-size: 0.75rem;
+  font-size: 0.95rem;
   letter-spacing: 0.09375rem;
   color: ${({ theme }) => theme.color.erin};
   transition: 0.3s ease;
@@ -62,6 +57,10 @@ export const StyledNavLinks = styled(NavLink)`
   position: relative;
   font-weight: 500;
   cursor: pointer;
+
+  &:hover {
+    color: ${({ theme }) => theme.color.light};
+  }
 
   &::after {
     content: "";
@@ -99,7 +98,7 @@ export const StyledNavLinks = styled(NavLink)`
 `;
 
 export const StyledCTA = styled.a`
-  font-size: 0.625rem;
+  font-size: 0.825rem;
   letter-spacing: 0.1875rem;
   font-weight: 500;
   transition: 0.3s ease;

@@ -4,6 +4,8 @@ import arrowUp from "../../assets//icons/icon-arrow-up.svg";
 export const StyledFooter = styled.footer`
   background-color: ${({ theme }) => theme.backgroundColor.dark};
   color: ${({ theme }) => theme.color.tertiaryLight};
+  align-items: center;
+  justify-content: center;
 `;
 
 export const FooterSmallTitleWrapper = styled.div`
@@ -89,6 +91,8 @@ export const FooterContacts = styled.div`
   display: flex;
   margin-top: 8rem;
   gap: 5rem;
+  align-items: center;
+  justify-content: center;
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.lg}) {
     flex-direction: column;
@@ -203,11 +207,11 @@ export const FooterLine = styled.hr`
 export const ArrowToTop = styled.div`
   height: 60px;
   width: 60px;
-  background: ${({ theme }) => theme.color.lightGray};
+  background: ${({ theme }) => theme.color.erin};
   background-image: url(${arrowUp});
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 10px 16px;
+  background-size: 60px 23px;
   position: absolute;
   right: 0;
   transition: 0.3s ease;
@@ -233,14 +237,14 @@ export const ArrowToTop = styled.div`
   }
 
   @keyframes lineAnimation {
-    0% {
-      height: 0;
+    100% {
+      height: 5rem;
     }
     50% {
       height: 0;
     }
-    100% {
-      height: 6rem;
+    0% {
+      height: 0;
     }
   }
 
@@ -287,4 +291,6 @@ export const Copyright = styled.div`
   }
 `;
 
-export const Small = styled.a``;
+export const Small = styled.a`
+  color: ${({ theme }) => theme.color.erin};
+`;

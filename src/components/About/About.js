@@ -23,21 +23,23 @@ const About = () => {
         </SectionTitle>
       </SectionHeading>
       <AboutContent>
-        <AboutImageContainer>
-          {/* <AboutImage src={myImage} /> */}
-        </AboutImageContainer>
         <AboutDetailsContainer>
           <StyledParagraph>
-            My name is Sumeru Das, completed Bachelor of Information Technology
-            from IIIT Bhubaneswar. I am a passionate Full Stack Developer
-            developer based in india.
+            I'm your go-to Full Stack Developer, ready to bring your dream
+            product to life in the virtual world. From crafting sleek websites
+            for small and medium-sized businesses to empowering you by building
+            your dream tech product, I've got the skills and expertise to make
+            it happen.
           </StyledParagraph>
           <StyledParagraph>
-            I love to design and create responsive websites or web apps from
-            scratch. The technologies, tools and languages I am using to build
-            my projects are HTML, CSS, JavaScript, Jquery, REACT JS, Redux,
-            Redux Toolkit, TailwindCSS, Bootstrap, Node js, Mongo DB,Git and
-            GitHub and VS Code.
+            With a mastery of JavaScript, React.js, Node.js, express.js, CSS and
+            Next.js, I can help ensure your online presence stands out from the
+            crowd. I am skilled in creating user-friendly interfaces, building
+            RESTful APIs, and seamlessly integrating external services.
+            <br />
+            <br />
+            Your dream + my expertise = scalable, performant, reliable, and
+            intuitive products. Let's build something extraordinary!
           </StyledParagraph>
           <Resume>
             <ResumeLink

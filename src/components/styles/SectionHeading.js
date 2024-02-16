@@ -16,7 +16,7 @@ export const SectionTitle = styled.h2`
   font-weight: 800;
   text-transform: capitalize;
   z-index: 1;
-  color: ${(props) => (props.dark ? "#f2f2f2" : "#262637")};
+  color: ${(props) => (props.dark ? "#fff" : "#000")};
   display: inline-block;
 
   &::after {

@@ -8,6 +8,7 @@ export const theme = {
     light: "#ffffff",
     erin: "#00FF40",
     darkGray: "#111",
+    tertiaryLight: "#d3d3d3",
   },
   color: {
     dark: "#000000",
@@ -17,7 +18,7 @@ export const theme = {
     secondaryLight: "#f1f1f1",
     tertiaryLight: "#d3d3d3",
     erin: "#00FF40",
-    link: "#00FF40",
+    link: "#000",
   },
   CTA: {
     primary: "#e64e04",

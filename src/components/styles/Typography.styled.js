@@ -14,6 +14,7 @@ export const StyledParagraph = styled.p`
 
 export const StyledLink = styled.a`
   color: ${({ theme }) => theme.color.link};
+  font-size: ${(props) => props.fontSize || "1.325rem"};
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.md}) {
     display: block;

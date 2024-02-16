@@ -19,7 +19,7 @@ export const Flex = css`
 `;
 
 export const StyledProjects = styled.section`
-  background-color: ${({ theme }) => theme.backgroundColor.light};
+  background-color: ${({ theme }) => theme.backgroundColor.tertiaryLight};
   color: ${({ theme }) => theme.color.darkGray};
 `;
 

@@ -3,14 +3,13 @@ import {
   Line,
   Menu,
   NavList,
-  NavLogo,
   NavMenuList,
   StyledCTA,
   StyledNavbar,
   StyledNavLinks,
 } from "../styles/Navbar.styled";
 // import logo from "../../assets/logo.png";
-import { animateScroll as scroll } from "react-scroll";
+// import { animateScroll as scroll } from "react-scroll";
 import MobileMenu from "./MobileMenu";
 
 const Navbar = () => {
@@ -27,9 +26,9 @@ const Navbar = () => {
 
   window.addEventListener("scroll", stickyNavFunction);
 
-  const toTop = () => {
-    scroll.scrollToTop({ delay: 0, duration: 0 });
-  };
+  // const toTop = () => {
+  //   scroll.scrollToTop({ delay: 0, duration: 0 });
+  // };
 
   // mobile toggle
   const toggle = () => {
@@ -38,9 +37,6 @@ const Navbar = () => {
 
   return (
     <StyledNavbar className={stickyNav ? "sticky" : ""}>
-      {/* <div>
-        <NavLogo to="/" onClick={toTop} src={logo} alt="logo" />
-      </div> */}
       <NavMenuList>
         <NavList>
           <StyledNavLinks
@@ -86,7 +82,7 @@ const Navbar = () => {
         </NavList>
       </NavMenuList>
       <StyledCTA
-        href="mailto:akashvasaniya006@gmail.com"
+        href="mailto:sumerudas2019@gmail.com"
         target="_blank"
         rel="noreferrer"
       >
