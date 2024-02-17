@@ -17,6 +17,8 @@ import { GoMarkGithub } from "react-icons/go";
 import { FaEnvelope } from "react-icons/fa";
 
 const MobileMenu = ({ isOpen, toggle }) => {
+  let today = new Date(),
+    hour = today.getHours();
   return (
     <MobileMenuContainer isOpen={isOpen} toggle={toggle}>
       <Icon onClick={toggle}>
@@ -78,7 +80,12 @@ const MobileMenu = ({ isOpen, toggle }) => {
           <GrLinkedinOption />
         </MobileSocial>
       </MobileSocials>
-      <MobileQuote>Peace</MobileQuote>
+      <MobileQuote>
+        <span>
+          {hour < 12 ? " Ohayō " : hour < 18 ? " Konbanwa" : " Oyasumi "}
+        </span>
+        .
+      </MobileQuote>
     </MobileMenuContainer>
   );
 };

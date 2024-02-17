@@ -29,13 +29,13 @@
   min-height: 100%;
   z-index: -1;
 }
-@media only screen and (max-width: 375px) {
+/* @media only screen and (max-width: 375px) {
   .video-bg {
     display: none;
   }
 
   main {
-    background-color: black;
+    background-image: url("../../assets//mobileBackground.jpg");
   }
 }
 @media only screen and (max-width: 667px) {
@@ -44,7 +44,7 @@
   }
 
   main {
-    background-color: black;
+    background-image: url("../../assets//mobileBackground.jpg");
   }
 }
 @media only screen and (max-width: 1024px) {
@@ -53,7 +53,7 @@
   }
 
   main {
-    background-color: black;
+    background-image: url("../../assets//mobileBackground.jpg");
   }
 }
 /* @media only screen and (min-width: 1025px) {
@@ -66,8 +66,7 @@
 
 }
 */
-
-.content {
+*/ .content {
   position: relative; /* Ensure content stacks on top of video */
   z-index: 1; /* Ensure content appears above video */
   /* Add any additional styling for content positioning */

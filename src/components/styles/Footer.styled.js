@@ -98,11 +98,17 @@ export const FooterContacts = styled.div`
     flex-direction: column;
     gap: 0;
     margin-top: 3rem;
+    align-items: center;
+    justify-content: center;
   }
 `;
 
 export const FooterContact = styled.div`
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.lg}) {
     padding-bottom: 1rem;

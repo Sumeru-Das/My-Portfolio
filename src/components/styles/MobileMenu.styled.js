@@ -28,7 +28,7 @@ export const Icon = styled.div`
 
 export const CloseIcon = styled(closeIcon)`
   cursor: pointer;
-  color: #fff;
+  color: #00ff40;
   font-size: 1.75rem;
 `;
 
@@ -55,7 +55,7 @@ export const MobileMenuLink = styled(MobileMenuNavLink)`
 
 export const MobileButton = styled.a`
   font-family: ${({ theme }) => theme.fonts.cardo};
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   letter-spacing: 0.1875rem;
   font-weight: 500;
   transition: 0.3s ease;
@@ -111,7 +111,7 @@ export const MobileButton = styled.a`
 
   &::before {
     content: "";
-    background: ${({ theme }) => theme.backgroundColor.orange};
+    background: ${({ theme }) => theme.backgroundColor.light};
     transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
     transform-origin: 100% 50%;
   }
@@ -128,6 +128,7 @@ export const MobileSocials = styled.div`
   right: 2.5rem;
   display: flex;
   gap: 1.5rem;
+  color: ${({ theme }) => theme.color.erin};
 `;
 
 export const MobileSocial = styled.a``;
@@ -138,4 +139,5 @@ export const MobileQuote = styled.span`
   position: absolute;
   bottom: 2rem;
   left: 2.5rem;
+  color: ${({ theme }) => theme.color.erin};
 `;

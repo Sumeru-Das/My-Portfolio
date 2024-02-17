@@ -69,7 +69,7 @@ export const Line = styled.hr`
 `;
 
 export const Greeting = styled.p`
-  color: ${({ theme }) => theme.color.erin};
+  color: ${({ theme }) => theme.color.light};
   position: absolute;
   bottom: 3rem;
 `;

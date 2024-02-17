@@ -20,11 +20,9 @@ import { GoMarkGithub } from "react-icons/go";
 import { FaEnvelope } from "react-icons/fa";
 
 import videoBg from "../../assets/videoBg2.mp4";
+import RandomQuote from "./RandomQuote";
 
 const Home = () => {
-  let today = new Date(),
-    hour = today.getHours();
-
   return (
     <div className="main">
       <div className="overlay"></div>
@@ -81,10 +79,7 @@ const Home = () => {
             </StyledButtonsContainer>
             {/* <Line /> */}
             <Greeting>
-              <span>
-                {hour < 12 ? " Ohayō " : hour < 18 ? " Konbanwa" : " Oyasumi "}
-              </span>
-              .
+              <RandomQuote />
             </Greeting>
             <Socials>
               <Social
