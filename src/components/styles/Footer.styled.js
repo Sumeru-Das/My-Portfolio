@@ -132,20 +132,6 @@ export const FooterContact = styled.div`
       left: 0;
     }
   }
-
-  @media all and (max-width: ${({ theme }) => theme.breakpoints.sm}) {
-    &::before {
-      content: "";
-
-      width: 100%;
-    }
-
-    &::after {
-      content: "";
-
-      width: 50%;
-    }
-  }
 `;
 
 export const ContactHeader = styled.p`
