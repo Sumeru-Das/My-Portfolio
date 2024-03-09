@@ -19,7 +19,9 @@ export const Flex = css`
 `;
 
 export const StyledProjects = styled.section`
-  background-color: ${({ theme }) => theme.backgroundColor.tertiaryLight};
+  height: 70%
+  width: 100%
+  background-color: ${({ theme }) => theme.backgroundColor.light};
   color: ${({ theme }) => theme.color.darkGray};
 `;
 

@@ -13,7 +13,8 @@ import {
 } from "../styles/MobileMenu.styled";
 
 import { GrLinkedinOption } from "react-icons/gr";
-import { GoMarkGithub } from "react-icons/go";
+import { FaGithub } from "react-icons/fa";
+
 import { FaEnvelope } from "react-icons/fa";
 
 const MobileMenu = ({ isOpen, toggle }) => {
@@ -69,7 +70,7 @@ const MobileMenu = ({ isOpen, toggle }) => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <GoMarkGithub />
+          <FaGithub />
         </MobileSocial>
 
         <MobileSocial

@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Link as NavLink } from "react-scroll";
 
 export const StyledNavbar = styled.nav`
   position: absolute;
@@ -48,7 +47,7 @@ export const NavMenuList = styled.ul`
 
 export const NavList = styled.li``;
 
-export const StyledNavLinks = styled(NavLink)`
+export const StyledNavLinks = styled.h2`
   font-size: 0.95rem;
   letter-spacing: 0.09375rem;
   color: ${({ theme }) => theme.color.erin};

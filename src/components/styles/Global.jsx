@@ -7,9 +7,7 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
     }
 
-    html{
-    scroll-behavior: smooth;
-    }
+    
 
     body {
     font-size: 100%;

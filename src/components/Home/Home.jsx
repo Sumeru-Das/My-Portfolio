@@ -16,7 +16,7 @@ import aboutIcon from "../../assets/icons/about-me.svg";
 import { IconContext } from "react-icons";
 import { GrLinkedinOption } from "react-icons/gr";
 import { BsInstagram } from "react-icons/bs";
-import { GoMarkGithub } from "react-icons/go";
+import { FaGithub } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 
 import videoBg from "../../assets/videoBg2.mp4";
@@ -101,7 +101,7 @@ const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <GoMarkGithub />
+                <FaGithub />
               </Social>
               <Social
                 href="https://www.linkedin.com/in/sumerudas/"

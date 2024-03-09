@@ -32,7 +32,9 @@ export const CloseIcon = styled(closeIcon)`
   font-size: 1.75rem;
 `;
 
-export const CloseText = styled.span``;
+export const CloseText = styled.span`
+  color: #00ff40;
+`;
 
 export const MobileMenuList = styled.ul`
   display: flex;
