@@ -21,18 +21,30 @@ import { FaEnvelope } from "react-icons/fa";
 
 import videoBg from "../../assets/videoBg2.mp4";
 import RandomQuote from "./RandomQuote";
+import SplitType from "split-type";
+import gsap from "gsap";
 
 const Home = () => {
+  const name = new SplitType("#name");
+
+  gsap.to(".char", {
+    y: 0,
+    stagger: 0.05,
+    delay: 0.2,
+    duration: 0.1,
+  });
   return (
     <div className="main">
       <div className="overlay"></div>
-      <video autoPlay muted loop src={videoBg} className="video-bg" />
+      <video autoPlay muted loop="true" src={videoBg} className="video-bg" />
       <div className="content">
         <IconContext.Provider value={{ size: "1rem" }}>
           <StyledHome id="home">
             {/* Content */}
 
-            <Name className="font">Sumeru Das</Name>
+            <Name id="name" className="font">
+              Sumeru Das
+            </Name>
             <Title>Full Stack Developer</Title>
             <p className="intro">
               I <span className="change-text"></span>{" "}

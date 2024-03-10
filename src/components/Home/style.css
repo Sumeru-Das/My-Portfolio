@@ -13,6 +13,11 @@
   font-size: 1.1875rem;
 }
 
+.char {
+  transform: translateY(-115px);
+  transition: transform 0.5s;
+}
+
 .overlay {
   position: absolute;
   z-index: 0;

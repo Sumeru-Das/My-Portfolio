@@ -18,13 +18,13 @@ export const Name = styled.h2`
   font-size: 8.1875rem;
   position: relative;
   color: #fff9f9;
-
-  @media all and (max-width: ${({ theme }) => theme.breakpoints.sm}) {
+  line-height: 5.9rem @media all and
+    (max-width: ${({ theme }) => theme.breakpoints.sm}) {
     font-size: 2.1875rem;
   }
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.xs}) {
-    font-size: 1.875rem;
+    font-size: 4.875rem;
   }
 `;
 
@@ -36,11 +36,11 @@ export const Title = styled.h1`
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.md}) {
     text-align: center;
-    font-size: 3.25rem;
+    font-size: 2.25rem;
   }
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.sm}) {
-    font-size: 2.6875rem;
+    font-size: 2.3875rem;
   }
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.xs}) {
