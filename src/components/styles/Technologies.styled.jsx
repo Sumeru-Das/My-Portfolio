@@ -17,7 +17,7 @@ export const TechnologiesHeader = styled.h2`
 export const TechnologiesIcons = styled.div`
   display: flex;
   height: 10rem;
-  width: 8S0%;
+  width: 80%;
   align-items: center;
   justify-content: space-between;
   gap: 2.5rem;
