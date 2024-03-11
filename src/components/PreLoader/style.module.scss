@@ -6,7 +6,12 @@
   justify-content: center;
   position: fixed;
   z-index: 999999999;
-  background-color: #141516;
+  // background-color: #141516;
+  background-image: radial-gradient(
+    circle at center center,
+    rgb(71, 71, 71),
+    rgb(8, 8, 8)
+  );
   svg {
     position: absolute;
     top: 0;

@@ -16,8 +16,8 @@ export const TechnologiesHeader = styled.h2`
 
 export const TechnologiesIcons = styled.div`
   display: flex;
-  height: 7rem;
-  width: 70%;
+  height: 10rem;
+  width: 8S0%;
   align-items: center;
   justify-content: space-between;
   gap: 2.5rem;
@@ -28,7 +28,8 @@ export const TechnologiesIcons = styled.div`
 
   /* add this code to style the scroll bar */
   &::-webkit-scrollbar {
-    width: 0.5rem;
+    width: 0.3rem;
+    height: 0.2rem;
   }
 
   &::-webkit-scrollbar-track {

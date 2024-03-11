@@ -109,29 +109,6 @@ export const FooterContact = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
-  @media all and (max-width: ${({ theme }) => theme.breakpoints.lg}) {
-    padding-bottom: 1rem;
-
-    &::before {
-      content: "";
-      position: absolute;
-      bottom: 0;
-      height: 2px;
-      width: 50%;
-      background: #1a1a1a;
-    }
-
-    &::after {
-      content: "";
-      position: absolute;
-      height: 2px;
-      width: 25%;
-      background: #a8aca3;
-      bottom: 0;
-      left: 0;
-    }
-  }
 `;
 
 export const ContactHeader = styled.p`

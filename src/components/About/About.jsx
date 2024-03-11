@@ -9,7 +9,7 @@ import {
 import { SectionHeading, SectionTitle } from "../styles/SectionHeading";
 import { StyledParagraph } from "../styles/Typography.styled";
 import downloadIcon from "../../assets/icons/download-icon.svg";
-import resume from "../../assets/Resume.pdf";
+import resume from "../../assets/SumeruDas-CV.pdf";
 
 const About = () => {
   return (
@@ -22,27 +22,15 @@ const About = () => {
       <AboutContent>
         <AboutDetailsContainer>
           <StyledParagraph>
-            I'm your go-to Full Stack Developer, ready to bring your dream
-            product to life in the virtual world. From crafting sleek websites
-            for small and medium-sized businesses to empowering you by building
-            your dream tech product, I've got the skills and expertise to make
-            it happen.
-          </StyledParagraph>
-          <StyledParagraph>
-            With a mastery of JavaScript, React.js, Node.js, express.js, CSS and
-            Next.js, I can help ensure your online presence stands out from the
-            crowd. I am skilled in creating user-friendly interfaces, building
-            RESTful APIs, and seamlessly integrating external services.
-            <br />
-            <br />
-            Your dream + my expertise = scalable, performant, reliable, and
-            intuitive products. Let's build something extraordinary!
+            Frontend Developer specializing in TypeScript, React.js, Tailwind
+            CSS, Next.js. Crafting sleek, intuitive, scalable web solutions for
+            businesses.
           </StyledParagraph>
           <Resume>
             <ResumeLink
               href={resume}
               icon={downloadIcon}
-              download="Sumeru-Das-Resume"
+              download="SumeruDas-CV"
             >
               Download Resume
             </ResumeLink>

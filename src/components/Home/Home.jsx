@@ -40,8 +40,6 @@ const Home = () => {
       <div className="content">
         <IconContext.Provider value={{ size: "1rem" }}>
           <StyledHome id="home">
-            {/* Content */}
-
             <Name id="name" className="font">
               Sumeru Das
             </Name>
