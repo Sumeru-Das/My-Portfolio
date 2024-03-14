@@ -1,14 +1,15 @@
 import styled from "styled-components";
 
 export const ParallaxContainer = styled.div`
-  height: 70vh;
+  height: 100vh;
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.sm}) {
-    height: 45vh;
+    height: 100vh;
+    width: 90%;
   }
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.xs}) {
-    height: 38vh;
+    height: 100vh;
   }
 `;
 

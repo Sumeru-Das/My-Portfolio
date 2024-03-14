@@ -54,6 +54,6 @@ export const TechnologyIcon = styled.img`
   }
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.md}) {
-    height: 24px;
+    height: 44px;
   }
 `;

@@ -83,7 +83,7 @@ export const FooterBigLink = styled.a`
   }
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.xs}) {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 `;
 

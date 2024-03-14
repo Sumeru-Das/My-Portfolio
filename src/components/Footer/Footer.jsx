@@ -17,6 +17,7 @@ import {
   StyledFooter,
 } from "../styles/Footer.styled";
 import { animateScroll as scroll } from "react-scroll";
+import { ReactTyped } from "react-typed";
 
 const toTop = () => {
   scroll.scrollToTop({ delay: 0, duration: 0 });
@@ -35,7 +36,14 @@ const Footer = () => {
           href="mailto:sumerudas2019@gmail.com"
           data-hover="Let's talk!"
         >
-          Need a developer?
+          <ReactTyped
+            strings={["Need a developer?"]}
+            typeSpeed={100}
+            loop
+            backSpeed={20}
+            cursorChar="✌️"
+            showCursor={true}
+          />
         </FooterBigLink>
       </FooterBigLinkContainer>
       <FooterContacts>
