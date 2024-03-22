@@ -168,15 +168,14 @@ export const FooterArrowLine = styled.div`
 export const FooterLine = styled.hr`
   margin-top: 3rem;
   border: none;
-  height: 0.2px;
-  background: ${({ theme }) => theme.backgroundColor.darkGray};
+  height: 0.5px;
+  background: ${({ theme }) => theme.backgroundColor.erin};
   position: relative;
 `;
 
 export const ArrowToTop = styled.div`
   height: 60px;
   width: 60px;
-  background: ${({ theme }) => theme.color.erin};
   background-image: url(${arrowUp});
   background-repeat: no-repeat;
   background-position: center center;

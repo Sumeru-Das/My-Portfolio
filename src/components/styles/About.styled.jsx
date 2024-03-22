@@ -33,20 +33,24 @@ export const AboutDetailsContainer = styled.div`
 `;
 
 export const StyledAboutParagraph = styled.p`
+  position: absolute;
+  padding-left: 25%;
   color: ${({ theme }) => theme.color.light};
   margin-bottom: 1rem;
   font-size: 3.5rem;
   letter-spacing: ${(props) => props.spacing};
   text-align: ${(props) => props.textAlign};
+  opacity: 0.2;
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.md}) {
     font-size: ${(props) => props.fontSizeMobile || "1.2375rem"};
+    padding-left: 5%;
   }
 `;
 
 export const Resume = styled.div`
   display: inline-block;
-  margin-top: 10rem;
+  margin-top: 20rem;
   position: relative;
   transition: 0.3s ease;
 
@@ -72,7 +76,7 @@ export const Resume = styled.div`
   }
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.lg}) {
-    margin-top: 3rem;
+    margin-top: 10rem;
   }
 `;
 

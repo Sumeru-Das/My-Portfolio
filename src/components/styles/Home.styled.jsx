@@ -7,7 +7,7 @@ export const StyledHome = styled.section`
   text-align: center;
   padding: 0 8rem;
   height: 100vh;
-
+  overflow: hidden;
   @media all and (max-width: ${({ theme }) => theme.breakpoints.md}) {
     align-items: center;
     padding: 0;

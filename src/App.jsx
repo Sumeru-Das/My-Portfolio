@@ -11,7 +11,6 @@ import { ThemeProvider } from "styled-components";
 import { theme } from "./components/styles/Theme";
 import { BrowserRouter as Router } from "react-router-dom";
 import Technologies from "./components/Technologies/Technologies";
-import LocomotiveScroll from "locomotive-scroll";
 import { useEffect, useState } from "react";
 import { AnimatePresence } from "framer-motion";
 
@@ -19,12 +18,6 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    (async () => {
-      const LocomotiveScroll = (await import("locomotive-scroll")).default;
-
-      const locomotiveScroll = new LocomotiveScroll();
-    })();
-
     setTimeout(() => {
       setIsLoading(false);
 
