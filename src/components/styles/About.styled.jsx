@@ -19,7 +19,6 @@ export const AboutContent = styled.div`
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.lg}) {
     flex-direction: column;
-    margin-top: 40%;
   }
 `;
 
@@ -33,18 +32,17 @@ export const AboutDetailsContainer = styled.div`
 `;
 
 export const StyledAboutParagraph = styled.p`
-  position: absolute;
-  padding-left: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: ${({ theme }) => theme.color.light};
   margin-bottom: 1rem;
   font-size: 3.5rem;
   letter-spacing: ${(props) => props.spacing};
   text-align: ${(props) => props.textAlign};
-  opacity: 0.2;
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.md}) {
     font-size: ${(props) => props.fontSizeMobile || "1.2375rem"};
-    padding-left: 5%;
   }
 `;
 
@@ -76,7 +74,7 @@ export const Resume = styled.div`
   }
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.lg}) {
-    margin-top: 10rem;
+    margin-top: 5rem;
   }
 `;
 

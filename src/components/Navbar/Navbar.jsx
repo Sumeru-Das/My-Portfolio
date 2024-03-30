@@ -30,7 +30,7 @@ const Navbar = () => {
           <StyledNavLinks>Projects</StyledNavLinks>
         </NavList>
         <NavList>
-          <StyledNavLinks>About</StyledNavLinks>
+          <StyledNavLinks edNavLinks>About</StyledNavLinks>
         </NavList>
       </NavMenuList>
       <StyledCTA

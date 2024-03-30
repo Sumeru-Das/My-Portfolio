@@ -21,18 +21,13 @@ const About = () => {
       </SectionHeading>
       <AboutContent>
         <AboutDetailsContainer>
-          <div>
-            <StyledAboutParagraph>
-              I'm your go-to Frontend Developer.
-            </StyledAboutParagraph>
-            <br />
-            <br />
-            <br />
-            <br />
-            <StyledAboutParagraph>
-              Let's build something extraordinary!
-            </StyledAboutParagraph>
-          </div>
+          <StyledAboutParagraph>
+            I'm your go-to Frontend Developer.
+          </StyledAboutParagraph>
+
+          <StyledAboutParagraph>
+            Let's build something extraordinary!
+          </StyledAboutParagraph>
           <Resume>
             <ResumeLink
               href={resume}
