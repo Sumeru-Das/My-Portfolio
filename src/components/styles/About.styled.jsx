@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const StyledAbout = styled.section`
-  background-color: ${({ theme }) => theme.backgroundColor.dark};
-  color: ${({ theme }) => theme.color.light};
+  background-color: #000000;
+  color: #ffffff;
   height: 100vh;
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.md}) {
-    height: 80vh;
+    height: 70vh;
   }
 `;
 
@@ -35,7 +35,7 @@ export const StyledAboutParagraph = styled.p`
   display: flex;
   justify-content: center;
   align-items: center;
-  color: ${({ theme }) => theme.color.light};
+  color: #FFFFFF;
   margin-bottom: 1rem;
   font-size: 3.5rem;
   letter-spacing: ${(props) => props.spacing};
@@ -61,7 +61,7 @@ export const Resume = styled.div`
     bottom: -0.5rem;
     height: 1px;
     border-radius: 5px;
-    background: ${({ theme }) => theme.backgroundColor.light};
+    background: #f95738;
     width: 100%;
     transition: transform 0.3s ease;
     transform: scaleX(0);

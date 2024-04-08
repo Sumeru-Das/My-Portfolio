@@ -12,20 +12,14 @@ export const StyledNavbar = styled.nav`
   padding: 0 5rem;
   transition: 0.5s ease-in-out;
   z-index: 999;
-  color: #000;
 
   &.sticky {
     position: fixed;
     left: 0;
     right: 0;
     top: 0;
-    background-color: ${({ theme }) => theme.backgroundColor.dark};
     height: 5.32875rem;
     z-index: 999;
-  }
-
-  &:hover {
-    color: ${({ theme }) => theme.color.black};
   }
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.md}) {
@@ -48,9 +42,9 @@ export const NavMenuList = styled.ul`
 export const NavList = styled.li``;
 
 export const StyledNavLinks = styled.h2`
-  font-size: 0.95rem;
+  font-size: 1rem;
   letter-spacing: 0.09375rem;
-  color: ${({ theme }) => theme.color.erin};
+  color: #f95738;
   transition: 0.3s ease;
   text-transform: uppercase;
   position: relative;
@@ -58,7 +52,7 @@ export const StyledNavLinks = styled.h2`
   cursor: pointer;
 
   &:hover {
-    color: ${({ theme }) => theme.color.light};
+    color: #ffffff;
   }
 
   &::after {
@@ -70,7 +64,7 @@ export const StyledNavLinks = styled.h2`
     width: 0;
     transform: scaleX(1);
     height: 0.0625rem;
-    background: ${({ theme }) => theme.backgroundColor.erin};
+    background: #f95738;
     transition: 0.3s ease-in-out;
   }
 
@@ -79,7 +73,7 @@ export const StyledNavLinks = styled.h2`
   }
 
   &.active {
-    color: ${({ theme }) => theme.color.light};
+    color: #f95738;
   }
 
   &.active::after {
@@ -91,7 +85,7 @@ export const StyledNavLinks = styled.h2`
     width: 100%;
     transform: scaleX(1);
     height: 0.0625rem;
-    background: ${({ theme }) => theme.backgroundColor.erin};
+    background: #f95738;
     transition: 0.3s ease-in-out;
   }
 `;
@@ -103,7 +97,7 @@ export const StyledCTA = styled.a`
   transition: 0.3s ease;
   text-transform: uppercase;
   padding: 0.8rem 1.5rem;
-  background: ${({ theme }) => theme.backgroundColor.light};
+  background: #f95738;
   transition: 0.3s ease;
   position: relative;
   overflow: hidden;
@@ -153,7 +147,7 @@ export const StyledCTA = styled.a`
 
   &::before {
     content: "";
-    background: ${({ theme }) => theme.backgroundColor.erin};
+    background: #ffffff;
     transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
     transform-origin: 100% 50%;
   }
@@ -180,7 +174,7 @@ export const Menu = styled.div`
 export const Line = styled.div`
   height: 0.1125rem;
   width: ${(props) => props.width || "2rem"};
-  background: ${({ theme }) => theme.color.erin};
+  background: #f95738;
   margin: 0.28125rem 0;
   transition: 0.3s ease;
   margin-left: ${(props) => props.ml || "0"};

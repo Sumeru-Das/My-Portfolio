@@ -1,7 +1,12 @@
 * {
-  box-sizing: border-box;
+  font-family: Font;
 }
 
 ::selection {
   color: yellowgreen;
+}
+
+@font-face {
+  font-family: "Font";
+  src: url("../src/assets/fonts/PPNeueMachina_Light.ttf") format("truetype");
 }

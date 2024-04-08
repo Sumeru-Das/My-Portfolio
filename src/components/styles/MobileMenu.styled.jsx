@@ -10,7 +10,7 @@ export const MobileMenuContainer = styled.div`
   position: fixed;
   height: 100%;
   width: 100%;
-  background: ${({ theme }) => theme.backgroundColor.dark};
+  background: #000000;
   opacity: ${({ isOpen }) => (isOpen ? "1" : "0")};
   top: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
   transition: 0.3s ease;
@@ -28,12 +28,12 @@ export const Icon = styled.div`
 
 export const CloseIcon = styled(closeIcon)`
   cursor: pointer;
-  color: #00ff40;
+  color: #ffffff;
   font-size: 1.75rem;
 `;
 
 export const CloseText = styled.span`
-  color: #00ff40;
+  color: #f95738;
 `;
 
 export const MobileMenuList = styled.ul`
@@ -46,7 +46,6 @@ export const MobileMenuList = styled.ul`
 `;
 
 export const MobileMenuLink = styled(MobileMenuNavLink)`
-  font-family: ${({ theme }) => theme.fonts.cardo};
   font-size: 2rem;
   font-weight: 500;
   transition: 0.3s ease;
@@ -56,14 +55,13 @@ export const MobileMenuLink = styled(MobileMenuNavLink)`
 `;
 
 export const MobileButton = styled.a`
-  font-family: ${({ theme }) => theme.fonts.cardo};
   font-size: 0.95rem;
   letter-spacing: 0.1875rem;
   font-weight: 500;
   transition: 0.3s ease;
   text-transform: uppercase;
   padding: 0.8rem 1.5rem;
-  background: ${({ theme }) => theme.backgroundColor.darkGray};
+  background: #f95738;
   transition: 0.3s ease;
   position: relative;
   overflow: hidden;
@@ -113,7 +111,7 @@ export const MobileButton = styled.a`
 
   &::before {
     content: "";
-    background: ${({ theme }) => theme.backgroundColor.light};
+    background: #ffffff;
     transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
     transform-origin: 100% 50%;
   }
@@ -130,16 +128,18 @@ export const MobileSocials = styled.div`
   right: 2.5rem;
   display: flex;
   gap: 1.5rem;
-  color: ${({ theme }) => theme.color.erin};
+  color: #f95738;
+
+  &:hover {
+    color: #ffffff;
+  }
 `;
 
 export const MobileSocial = styled.a``;
 
 export const MobileQuote = styled.span`
-  font-family: ${({ theme }) => theme.fonts.cardo};
-  font-style: italic;
   position: absolute;
   bottom: 2rem;
   left: 2.5rem;
-  color: ${({ theme }) => theme.color.erin};
+  color: #f95738;
 `;

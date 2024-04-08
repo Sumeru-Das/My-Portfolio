@@ -4,8 +4,7 @@ import {
   Name,
   StyledButtonsContainer,
   StyledHome,
-  Title,
-  // Line,
+  Responsive,
   Greeting,
   Social,
   Socials,
@@ -28,11 +27,10 @@ const Home = () => {
   return (
     <div className="main">
       <div className="content">
-        <IconContext.Provider value={{ size: "1rem" }}>
+        <IconContext.Provider value={{ size: "1.3rem" }}>
           <StyledHome id="home">
             <Name className="font">Sumeru Das</Name>
-            <Title>Front End Developer</Title>
-            <p className="intro">
+            <Responsive>
               I <span className="change-text"></span>{" "}
               <span className="responsive">r</span>
               <span className="responsive">e</span>
@@ -44,37 +42,8 @@ const Home = () => {
               <span className="responsive">i</span>
               <span className="responsive">v</span>
               <span className="responsive">e</span> websites.
-            </p>
-            <StyledButtonsContainer>
-              <StyledButton
-                icon={projectIcon}
-                to="projects"
-                smooth={true}
-                duration={0}
-                delay={0}
-                spy={true}
-                spyThrottle={0}
-                exact="true"
-                offset={-50}
-              >
-                <span>Projects</span>
-              </StyledButton>
-              <StyledButton
-                icon={aboutIcon}
-                secondary="true"
-                content="B"
-                to="about"
-                smooth={true}
-                duration={0}
-                delay={0}
-                spy={true}
-                spyThrottle={0}
-                exact="true"
-                offset={-50}
-              >
-                <span>About me</span>
-              </StyledButton>
-            </StyledButtonsContainer>
+            </Responsive>
+
             {/* <Line /> */}
             <Greeting>
               <RandomQuote />

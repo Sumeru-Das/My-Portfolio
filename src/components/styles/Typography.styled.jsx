@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledParagraph = styled.p`
-  color: ${(props) => (props.dark ? "#2626237" : "#cccccc")};
+  color: #FFFFFF;
   margin-bottom: 1rem;
   font-size: ${(props) => props.fontSize || "1.125rem"};
   letter-spacing: ${(props) => props.spacing};
@@ -13,7 +13,7 @@ export const StyledParagraph = styled.p`
 `;
 
 export const StyledLink = styled.a`
-  color: ${({ theme }) => theme.color.link};
+  color: #f95738;
   font-size: ${(props) => props.fontSize || "1.325rem"};
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.md}) {

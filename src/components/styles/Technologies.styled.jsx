@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const TechnologiesContainer = styled.section`
-  background-color: ${({ theme }) => theme.backgroundColor.dark};
-  color: ${({ theme }) => theme.color.light};
+  background-color: #000000;
+  color: #FFFFFF;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,7 +42,7 @@ export const TechnologiesIcons = styled.div`
   }
 
   &::-webkit-scrollbar-thumb:hover {
-    background: #00ff40;
+    background: #f95738;
   }
 `;
 

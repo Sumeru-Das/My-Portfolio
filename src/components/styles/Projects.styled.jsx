@@ -8,7 +8,7 @@ export const HoverStyle = css`
   left: 0;
   width: 0;
   height: 0.7px;
-  background: ${({ theme }) => theme.backgroundColor.light};
+  background-color: #000000;
   transition: 0.3s ease-in-out;
 `;
 
@@ -21,7 +21,7 @@ export const Flex = css`
 export const StyledProjects = styled.section`
   height: 70%
   width: 100%
-  background-color: ${({ theme }) => theme.backgroundColor.light};
+  background-color: #000000;
   color: ${({ theme }) => theme.color.darkGray};
 `;
 
@@ -72,7 +72,9 @@ export const ProjectDetails = styled.div`
   z-index: 5;
 `;
 
-export const ProjectTitle = styled.span``;
+export const ProjectTitle = styled.span`
+  color: #ffffff;
+`;
 
 export const LinkName = styled.span``;
 
@@ -111,7 +113,8 @@ export const ProjectLiveLink = styled.a`
 `;
 
 export const ProjectCard = styled.article`
-  background: #fff;
+  background-color: #000000;
+
   width: 32rem;
   height: 23rem;
   display: flex;

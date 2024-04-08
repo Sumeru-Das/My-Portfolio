@@ -16,19 +16,9 @@ export const SectionTitle = styled.h2`
   font-weight: 800;
   text-transform: capitalize;
   z-index: 1;
-  color: ${(props) => (props.dark ? "#fff" : "#000")};
+  color: #FFFFFF;
   display: inline-block;
 
-  &::after {
-    position: absolute;
-    content: "${(props) => props.number}";
-    left: 5%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    color: ${(props) =>
-      props.dark ? "rgba(29, 28, 28, 0.7)" : "rgba(0, 0, 0, 0.09)"};
-    z-index: -1;
-    font-size: 8rem;
 
     @media all and (max-width: ${({ theme }) => theme.breakpoints.lg}) {
       font-size: 6rem;

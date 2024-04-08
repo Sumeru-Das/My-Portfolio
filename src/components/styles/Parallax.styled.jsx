@@ -1,7 +1,13 @@
 import styled from "styled-components";
 
 export const ParallaxContainer = styled.div`
-  height: 100vh;
+min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.sm}) {
     height: 100vh;

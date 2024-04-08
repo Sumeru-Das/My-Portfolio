@@ -9,7 +9,7 @@ export const StyledButton = styled(Button)`
   line-height: 2.5rem;
   font-size: 0.9375em;
   text-transform: uppercase;
-  color: #b1dd40;
+  color: #f95738;
   padding: 0 2.5rem;
   outline: none !important;
   overflow: hidden;
@@ -18,7 +18,6 @@ export const StyledButton = styled(Button)`
   letter-spacing: 0.03125rem;
   border: 0;
   cursor: pointer;
-  background-color: #161b0b;
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.sm}) {
     font-size: 0.85em;

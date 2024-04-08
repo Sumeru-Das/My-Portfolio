@@ -2,8 +2,8 @@ import styled from "styled-components";
 import arrowUp from "../../assets//icons/icon-arrow-up.svg";
 
 export const StyledFooter = styled.footer`
-  background-color: ${({ theme }) => theme.backgroundColor.dark};
-  color: ${({ theme }) => theme.color.tertiaryLight};
+  background-color: #000000;
+  color: #ffffff;
   align-items: center;
   justify-content: center;
 `;
@@ -25,7 +25,7 @@ export const FooterSmallTitle = styled.span`
     position: absolute;
     top: 50%;
     left: -6%;
-    background: ${({ theme }) => theme.backgroundColor.orange};
+    background: #f95738;
     height: 5px;
     width: 5px;
     border-radius: 15px;
@@ -52,7 +52,7 @@ export const FooterBigLink = styled.a`
   position: relative;
   width: 100%;
   letter-spacing: 1px;
-  color: ${({ theme }) => theme.color.erin};
+  color: #ffffff;
 
   &::after {
     content: "";
@@ -63,7 +63,7 @@ export const FooterBigLink = styled.a`
     bottom: -1rem;
     height: 2px;
     border-radius: 5px;
-    background: ${({ theme }) => theme.backgroundColor.light};
+    background: #f95738;
     transition: transform 0.3s ease;
     transform: scaleX(0);
     transform-origin: bottom right;
@@ -126,9 +126,11 @@ export const ContactLink = styled.a`
   color: #8c8c8c;
   transition: 0.3s ease;
   position: relative;
+  transition: transform 0.3s ease;
 
   &:hover {
-    color: ${({ theme }) => theme.color.light};
+    color: #ffffff;
+    transform: scale(1.1);
   }
 
   &::after {
@@ -140,7 +142,7 @@ export const ContactLink = styled.a`
     bottom: 0;
     height: 1px;
     border-radius: 5px;
-    background: ${({ theme }) => theme.backgroundColor.light};
+    background: #f95738;
     transition: transform 0.3s ease;
     transform: scaleX(0);
     transform-origin: bottom right;
@@ -169,7 +171,7 @@ export const FooterLine = styled.hr`
   margin-top: 3rem;
   border: none;
   height: 0.5px;
-  background: ${({ theme }) => theme.backgroundColor.erin};
+  background: #FFFFFF;
   position: relative;
 `;
 
@@ -197,7 +199,7 @@ export const ArrowToTop = styled.div`
     display: block;
     width: 1px;
     height: 6rem;
-    background-color: ${({ theme }) => theme.backgroundColor.erin};
+    background-color: #FFFFFF;
     position: absolute;
     top: -6rem;
     left: 50%;
@@ -224,7 +226,7 @@ export const ArrowToTop = styled.div`
     line-height: 30px;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
-    color: ${({ theme }) => theme.color.erin};
+    color: #f95738;
     transition: all 0.5s;
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
@@ -252,7 +254,7 @@ export const ArrowToTop = styled.div`
 
 export const Copyright = styled.div`
   padding-top: 2rem;
-  color: #8c8c8c;
+  color: #f95738;
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.sm}) {
     padding-top: 0.85rem;
@@ -260,5 +262,5 @@ export const Copyright = styled.div`
 `;
 
 export const Small = styled.a`
-  color: ${({ theme }) => theme.color.erin};
+  color: #FFFFFF;
 `;
