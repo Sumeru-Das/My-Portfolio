@@ -79,10 +79,12 @@ export const Line = styled.hr`
 `;
 
 export const Greeting = styled.p`
-  color: #f95738;
+  color: #ffffff;
   position: absolute;
   bottom: 3rem;
   font-size: 1.2rem;
+  font-weight: 900;
+
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.md}) {
     text-align: center;

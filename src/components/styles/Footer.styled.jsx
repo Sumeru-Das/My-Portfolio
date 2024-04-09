@@ -6,6 +6,10 @@ export const StyledFooter = styled.footer`
   color: #ffffff;
   align-items: center;
   justify-content: center;
+  // background-color: #000000;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23220000' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23440000' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23660000' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23880000' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23A00' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
 `;
 
 export const FooterSmallTitleWrapper = styled.div`
@@ -63,7 +67,7 @@ export const FooterBigLink = styled.a`
     bottom: -1rem;
     height: 2px;
     border-radius: 5px;
-    background: #f95738;
+    background: #000000;
     transition: transform 0.3s ease;
     transform: scaleX(0);
     transform-origin: bottom right;
@@ -142,7 +146,7 @@ export const ContactLink = styled.a`
     bottom: 0;
     height: 1px;
     border-radius: 5px;
-    background: #f95738;
+    background: #000000;
     transition: transform 0.3s ease;
     transform: scaleX(0);
     transform-origin: bottom right;
@@ -171,7 +175,7 @@ export const FooterLine = styled.hr`
   margin-top: 3rem;
   border: none;
   height: 0.5px;
-  background: #FFFFFF;
+  background: #ffffff;
   position: relative;
 `;
 
@@ -199,7 +203,7 @@ export const ArrowToTop = styled.div`
     display: block;
     width: 1px;
     height: 6rem;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     position: absolute;
     top: -6rem;
     left: 50%;
@@ -222,11 +226,11 @@ export const ArrowToTop = styled.div`
     content: "back to top";
     display: block;
     width: 150px;
-    font-size: 0.8rem;
+    font-size: 1rem;
     line-height: 30px;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
-    color: #f95738;
+    color: #000000;
     transition: all 0.5s;
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
@@ -254,7 +258,9 @@ export const ArrowToTop = styled.div`
 
 export const Copyright = styled.div`
   padding-top: 2rem;
-  color: #f95738;
+  font-size: 2rem;
+
+  color: #000000;
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.sm}) {
     padding-top: 0.85rem;
@@ -262,5 +268,5 @@ export const Copyright = styled.div`
 `;
 
 export const Small = styled.a`
-  color: #FFFFFF;
+  color: #ffffff;
 `;

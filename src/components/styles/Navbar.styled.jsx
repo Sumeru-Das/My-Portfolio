@@ -44,16 +44,14 @@ export const NavList = styled.li``;
 export const StyledNavLinks = styled.h2`
   font-size: 1rem;
   letter-spacing: 0.09375rem;
-  color: #f95738;
+  color: #ffffff;
   transition: 0.3s ease;
   text-transform: uppercase;
   position: relative;
   font-weight: 500;
   cursor: pointer;
 
-  &:hover {
-    color: #ffffff;
-  }
+
 
   &::after {
     content: "";
@@ -91,9 +89,9 @@ export const StyledNavLinks = styled.h2`
 `;
 
 export const StyledCTA = styled.a`
-  font-size: 0.825rem;
+  font-size: .825rem;
   letter-spacing: 0.1875rem;
-  font-weight: 500;
+  font-weight: 900;
   transition: 0.3s ease;
   text-transform: uppercase;
   padding: 0.8rem 1.5rem;
