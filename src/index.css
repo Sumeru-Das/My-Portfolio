@@ -10,3 +10,8 @@
   font-family: "Font";
   src: url("../src/assets/fonts/PPNeueMachina_Light.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "Name";
+  src: url("../src/assets/fonts/WireOne.ttf") format("truetype");
+}

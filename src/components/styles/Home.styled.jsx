@@ -15,48 +15,49 @@ export const StyledHome = styled.section`
 `;
 
 export const Name = styled.h2`
-  font-size: 12.1875rem;
+  font-size: 20vw;
+  font-family: name;
   position: relative;
   color: #f4f4f9;
-  line-height: 5.9rem @media all and
-    (max-width: ${({ theme }) => theme.breakpoints.sm}) {
-    font-size: 2.1875rem;
-  }
+  // line-height: 5.9rem @media all and
+  //   (max-width: ${({ theme }) => theme.breakpoints.sm}) {
+  //   font-size: 5.1875rem;
+  // }
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.md}) {
-    font-size: 7.25rem;
+    font-size: 13.25rem;
   }
   
   @media all and (max-width: ${({ theme }) => theme.breakpoints.sm}) {
-    font-size: 5.3875rem;
+    font-size: 8.3875rem;
     padding-bottom: 2rem;
 
   }
   
   @media all and (max-width: ${({ theme }) => theme.breakpoints.xs}) {
-    font-size: 3.1875rem;
+    font-size: 8.1875rem;
     padding-bottom: 2rem;
 `;
 
-export const Title = styled.h1`
-  font-size: 3.375rem;
-  font-weight: 700;
-  margin: 0.5rem 0 1rem 0;
-  color: #f95738;
+// export const Title = styled.h1`
+//   font-size: 3.375rem;
+//   font-weight: 700;
+//   margin: 0.5rem 0 1rem 0;
+//   color: #f95738;
 
-  @media all and (max-width: ${({ theme }) => theme.breakpoints.md}) {
-    text-align: center;
-    font-size: 2.25rem;
-  }
+//   @media all and (max-width: ${({ theme }) => theme.breakpoints.md}) {
+//     text-align: center;
+//     font-size: 2.25rem;
+//   }
 
-  @media all and (max-width: ${({ theme }) => theme.breakpoints.sm}) {
-    font-size: 2.3875rem;
-  }
+//   @media all and (max-width: ${({ theme }) => theme.breakpoints.sm}) {
+//     font-size: 2.3875rem;
+//   }
 
-  @media all and (max-width: ${({ theme }) => theme.breakpoints.xs}) {
-    font-size: 2.1875rem;
-  }
-`;
+//   @media all and (max-width: ${({ theme }) => theme.breakpoints.xs}) {
+//     font-size: 4.1875rem;
+//   }
+// `;
 
 export const StyledButtonsContainer = styled.div`
   display: flex;
@@ -96,7 +97,7 @@ export const Greeting = styled.p`
   }
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.xs}) {
-    font-size: .9rem;
+    font-size: 5vw;
 `;
 
 export const Responsive = styled.span`
@@ -113,7 +114,7 @@ export const Responsive = styled.span`
 }
 
 @media all and (max-width: ${({ theme }) => theme.breakpoints.xs}) {
-  font-size: 1.1875rem;
+  font-size: 1.8rem;
 `;
 
 export const Socials = styled.div`
